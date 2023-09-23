@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#nav {
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+}
+
+
+.navbar {
+    background-image: linear-gradient(to right, #ec1e4b, #fb2c48);
+}
+
+.navbar-brand span {
+    font-weight: bolder;
+    color:#fff
+}
+
+
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+#banner {
+    position: relative;
+    background-image: linear-gradient(to right, #ec1e4b, #fb2c48);
+    color: #fff;
+    padding-top: 5%;
+}
+
+
+.title {
+    font-weight: bolder;
+    margin-top: 80px;
+}
+
+
+.ban-img {
+    position: relative;
+    z-index: 1000;
+}
+
+
+.wave {
+    position: absolute;
+    bottom: -10%;
+    left: 0;
+}
+
+
+#progkal {
+    padding: 80px 0;
+}
+
+
+.progkal {
+    padding: 20px;
+}
+
+
+.progkal img {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+
+.progkal h4 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+
+#visimisi {
+    padding: 80px 0;
+    background: #fff7f5;
+}
+
+
+#visimisi h4 {
+    margin-top: 15%;
+}
+
+
+#visimisi ol li {
+    margin-top: 10px;
+}
+
+
+#contact {
+    padding: 80px 0;
+}
+
+
+.contact {
+    margin-top: 5%;
+}
+
+
+.contact .btn {
+    border-radius: 10px;
+}
+
+
+#footer {
+    padding: 20px 0;
+    background-image: linear-gradient(to right, #ec1e4b, #fb2c48);
+    color: #fff;
+}
